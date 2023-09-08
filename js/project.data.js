@@ -9,7 +9,7 @@ let projectDetails = [
     repo: "gdscKIT/gdscKIT",
     desc: "Official Website for GDSC KIT, and which is open source 🤩.",
 
-    viewLink: "gdsckit.netlify.app",
+    viewLink: "#",
     repoLink: "https://github.com/Ankit-0310/GDSC-KIT",
 
     viewtarget: "_blank",
