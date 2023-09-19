@@ -6,7 +6,7 @@ let facul = [
   {
     id: 0,
     name: "Rahul Singh",
-    avatar: "../assets/img/team/Dr.DKK.jfif",
+    avatar: "https://media.licdn.com/dms/image/C5103AQEBNohCDU1OTA/profile-displayphoto-shrink_100_100/0/1570410031016?e=1700697600&v=beta&t=5t_4PmiB1uaYMrS7hLJNF9kG0jy9Nc9PT3lY8LAXgIw",
     badges: `
       <span class="red">Professor</span>
       <span class="green">KIT</span>
