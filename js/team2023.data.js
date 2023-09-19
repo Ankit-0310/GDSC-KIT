@@ -84,7 +84,7 @@ let coreMembersDetails2023 = [
     avatar: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/aman_tripathi_nxlzgs6.jpg",
     badges: `
       <span class="green">design</span>
-      <span class="green">Lead</span>
+      <span class="yellow">Lead</span>
     `,
     cardBorderColor: "yellow",
     //socialGithubLink: "#",
