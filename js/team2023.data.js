@@ -57,8 +57,8 @@ let coreMembersDetails2023 = [
     name:"Ankit",
     avatar: "https://media.licdn.com/dms/image/D5603AQFqcXxo1hXQcg/profile-displayphoto-shrink_200_200/0/1689119799821?e=1699488000&v=beta&t=GbbspcXlB7sx7JDoyW27RwCvp6uJhNkm649zUy_0JWs",
     badges: `
-      <span class="blue">Web</span>
-      <span class="red">Lead</span>
+      <span class="blue">GDSC</span>
+      <span class="red">Co-Lead</span>
     `,
     cardBorderColor: "blue",
     socialGithubLink: "https://github.com/Ankit-0310",
@@ -84,6 +84,7 @@ let coreMembersDetails2023 = [
     avatar: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/aman_tripathi_nxlzgs6.jpg",
     badges: `
       <span class="green">design</span>
+      <span class="green">Lead</span>
     `,
     cardBorderColor: "yellow",
     //socialGithubLink: "#",
