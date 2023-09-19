@@ -52,7 +52,7 @@ section#doubts div.faqs_header h1::after {
   transform: translate(-50%, 0);
   width: 50%;
   height: 1rem;
-  background: var(--primarygreen);
+  background: ;
   border-radius: 4px;
   opacity: 0.8;
   z-index: -1;
