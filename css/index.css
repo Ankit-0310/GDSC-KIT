@@ -78,8 +78,8 @@ section#banner div.banner h2 span {
   transition-delay: 0.6s;
 }
 
-section#banner div.banner h3 span {
-  font-size: 5rem;
+section#banner div.banner h2 span {
+  font-size: 4rem;
   font-weight: 600;
   font-family: var(--primaryfont_serif);
   color: var(--lightblack);
