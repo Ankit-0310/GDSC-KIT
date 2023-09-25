@@ -8,8 +8,8 @@ let facul = [
     name: "Rahul Singh",
     avatar: "https://media.licdn.com/dms/image/C5103AQEBNohCDU1OTA/profile-displayphoto-shrink_100_100/0/1570410031016?e=1700697600&v=beta&t=5t_4PmiB1uaYMrS7hLJNF9kG0jy9Nc9PT3lY8LAXgIw",
     badges: `
-      <span class="red">Professor</span>
-      <span class="green">KIT</span>
+      <span class="red">Professor KIT</span>
+     
     `,
     cardBorderColor: "blue",
     // socialGithubLink: "#",
@@ -25,7 +25,7 @@ let leadMemberDetails2023 = [
     name: "Shivansh",
     avatar: "https://media.licdn.com/dms/image/D5603AQGkPiW2jNdfOQ/profile-displayphoto-shrink_200_200/0/1682364442659?e=1699488000&v=beta&t=X_XkJM1HEKLSJPL91sluKmVmUKauGPJG4NUkQsjRNOc",
     badges: `
-                    <span class="blue">2023 GDSC LEAD</span>
+                    <span class="blue">GDSC LEAD</span>
                   
                 `,
     cardBorderColor: "red",
