@@ -17,7 +17,7 @@ img {
 
 .container {
   width: 90%;
-  margin: 10rem auto;
+  margin: 20rem auto;
   padding: 1rem;
   max-width: 1000px;
 }
@@ -71,7 +71,7 @@ p {
   text-align: center;
   margin: 0 auto;
   padding: 15px 21px;
-  border-radius: 40px;
+  border-radius: 20px;
   font-size: 15px;
   background: #2f5be7;
   border: none;
@@ -138,11 +138,12 @@ p {
 
 #events .item .left .img {
   height: 500px;
+  width: auto;
   overflow: hidden;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 0 15px rgb(99 114 130 / 30%);
-  position: relative;
+  position: absolute;
 }
 
 #events .item .left .img::after {
