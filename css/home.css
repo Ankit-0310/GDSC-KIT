@@ -1,4 +1,152 @@
 /* ********************************* Home Page Styles ********************************* */
+.workshops-section .tab-content {
+  margin-top: 40px;
+}
+
+.workshops-type-switch .nav-link {
+  background: transparent;
+  border-bottom: 2px solid #dddddd;
+  border-radius: 0;
+  color: #637282;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.workshops-type-switch .nav-link.active {
+  background: transparent;
+  color: #1B2733;
+  border-bottom-color: #3BC1FD;
+}
+
+.workshops-single {
+  -webkit-box-shadow: 0 0 20px rgba(27, 39, 51, 0.2);
+  box-shadow: 0 0 20px rgba(27, 39, 51, 0.2);
+  border-radius: 2%;
+  padding: 30px;
+}
+
+.workshops-single:hover {
+  -webkit-box-shadow: 0 0 40px rgba(0, 110, 255, 0.4);
+  box-shadow: 0 0 40px rgba(0, 110, 255, 0.4);
+}
+
+.workshops-header {
+  margin-bottom: 10px;
+}
+
+.workshops-title {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #1B2733;
+}
+
+.workshops-price {
+  margin-bottom: 20px;
+  color: #1B2733;
+}
+
+.workshops-price small {
+  display: block;
+  color: #637282;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.workshops-value {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 40px;
+  font-family: "Google Sans", sans-serif;
+}
+
+.workshops-currency {
+  font-size: 18px;
+  top: -28px;
+  left: -10px;
+  font-weight: normal;
+  position: relative;
+}
+
+.workshops-list {
+  list-style-type: none;
+}
+h6{
+  font-weight: 200;
+}
+
+.workshops-list .disabled {
+  text-decoration: line-through;
+  color: rgba(99, 114, 130, 0.5);
+}
+.workshops-list__item {
+  color: #637282;
+  margin: 10px 0;
+  position: relative;
+}
+hr{
+  height: 0.1px;
+  background-color: rgba(99, 114, 130, 0.8);
+}
+.workshops-list__item:before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(27, 39, 51, 0.3);
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.workshops-footer {
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.workshops-footer .assistive-text {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Style the tab */
+.tab {
+overflow: hidden;
+border: 1px solid #ccc;
+background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+background-color: inherit;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+transition: 0.3s;
+font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+display: none;
+padding: 6px 12px;
+border: 1px solid #ccc;
+border-top: none;
+}
 
 .landing-wrapper {
   display: flex;
@@ -26,8 +174,7 @@
   justify-content: center;
   align-items: center;
   padding: 60px 30px;
-  box-shadow: 5px 2px 20px rgb(0 0 0 / 20%);
-  border-radius: 20px;
+
 }
 
 .landing-right > h1 {
@@ -41,6 +188,20 @@
   color: var(--lightblack);
   line-height: 32px;
 }
+.img-fluid{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%
+
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+
 
 first-letter {
   color: var(--primaryblue);
@@ -66,6 +227,7 @@ forth-letter {
   font-size: 15px;
   border-radius: 50px;
   text-decoration: none;
+
 }
 
 .member-button:hover {
@@ -73,6 +235,7 @@ forth-letter {
   color: #ffffff;
   text-decoration: none;
   box-shadow: 0 3px 6px rgba(0, 110, 255, 0.4);
+
 }
 
 .floating {
@@ -100,3 +263,220 @@ forth-letter {
     width: 100% !important;
   }
 }
+
+
+/*testimonials*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.testimonials{
+  padding: 40px 0;
+  background: #f1f1f1;
+  color: #434343;
+  text-align: center;
+}
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.border{
+  width: 160px;
+  height: 5px;
+  background: #6ab04c;
+  margin: 26px auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial{
+  background: #fff;
+  padding: 30px;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.name{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.stars{
+  color: #6ab04c;
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:960px) {
+.col{
+  flex: 100%;
+  max-width: 80%;
+}
+}
+
+@media screen and (max-width:600px) {
+.col{
+  flex: 100%;
+  max-width: 100%;
+}
+}
+
+/* Add CSS for the event sections and toggle links */
+.event-toggle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.event-toggle a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
+}
+
+.event-toggle a.active-link {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.event-section {
+  display: none;
+}
+
+/* Add CSS transitions for smooth switching */
+.event-section.active-section {
+  display: block;
+  transition: opacity 0.5s ease;
+  opacity: 1;
+}
+/* ... (Previous CSS code) ... */
+
+/* Make the images smaller */
+.event-image img {
+  max-width: 550px; /* Reduce the maximum width of the images */
+  margin-right: 20px;
+}
+
+/* Increase the size of the buttons */
+.event-toggle a {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 30px; /* Increase the padding to make the buttons larger */
+  text-decoration: none;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* ... (Previous CSS code) ... */
+/* ... (Previous CSS code) ... */
+
+/* Center align the images within their containers */
+.event-image {
+  display: flex;
+  align-items: center;
+}
+
+.event-image img {
+  max-width: 550px;
+  margin-right: 20px;
+  margin: 0 auto; /* Center align the image horizontally within its container */
+}
+
+/* ... (Previous CSS code) ... */
+/* Add CSS for date, time, and venue in Google theme */
+.event-subheading {
+  font-family: 'Roboto', sans-serif; /* Use Google's Roboto font */
+  color: #4285f4; /* Use Google's blue color */
+  font-size: 16px; /* Adjust font size as needed */
+  margin-top: 5px; /* Add some space above the text */
+text-align: center;
+}
+
+/* Style the individual elements (Date, Time, Venue) */
+.event-subheading .date {
+  font-weight: bold; /* Make the date text bold */
+}
+
+.event-subheading .time {
+  font-style: italic; /* Make the time text italic */
+  color: #757575; /* Use a gray color for time */
+}
+
+.event-subheading .venue {
+  color: #0f9d58; /* Use Google's green color for venue */
+}
+/* Increase the text size inside the buttons */
+.event-toggle a {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 30px;
+  text-decoration: none;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
+  font-size: 18px; /* Adjust the font size as needed */
+}
+/* Center-align the paragraph text */
+.event-description {
+  text-align: center; /* Center align the text */
+  margin: 10px 0; /* Add some margin for spacing */
+}
+/* Center-align the RSVP button */
+.button {
+  display: block;
+  margin: 0 auto; /* Center align the button horizontally */
+  text-align: center; /* Center align the button text horizontally */
+}
+/* ... (Previous CSS code) ... */
+
+/* Make the text inside the buttons bold */
+.event-toggle a {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 30px;
+  text-decoration: none;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
+  font-weight: bold; /* Add this line to make the text bold */
+}
+
+/* ... (Previous CSS code) ... */
+/* ... (Previous CSS code) ... */
+
+/* Reduce the size of the "RSVP Now" button */
+.button {
+  padding: 10px 20px; /* Adjust the padding to make the button smaller */
+  font-size: 14px; /* Adjust the font size to make the text smaller */
+}
+
+/* ... (Previous CSS code) ... */
