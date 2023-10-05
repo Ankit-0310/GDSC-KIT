@@ -49,9 +49,27 @@
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/blog.css" />
+
+
 
     <!-- Main JS -->
     <script defer src="../js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../js\nav.js">
+
+</script>
+
+<style media="screen">
+.tag_title{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%
+
+}
+</style>
+</style>
   </head>
 
   <body>
@@ -68,64 +86,47 @@
         </button>
 
         <div class="navbar_menus">
-          <a  href="./home.html" class="active">Home</a>
-          <a href="#" class="nav_link">About</a>
-          <a href="#" class="nav_link">Events</a>
-          <a href="#" class="nav_link">Projects</a>
-          <a href="#" class="nav_link">FAQs</a>
+          <a href="#home" class="nav_link">Home</a>
+          <a href="#about" class="nav_link">About</a>
+          <a href="#events" class="nav_link">Events</a>
 
-          <!-- <a href="./blogs.html" class="nav_link">Blogs</a> -->
-          <a href="#" class="nav_link">Team</a>
-          <a href="#" class="nav_link">Contact</a>
+          <a href="#projects" class="nav_link">Projects</a>
+          <a href="#doubts" class="nav_link">FAQs</a>
+          <a href="#opportunities" class="nav_link">Oportunities</a>
+          <a href="#team" class="nav_link">Team</a>
+          <a href="#testimonial" class="nav_link">Testimonials</a>
+          <a href="#contact" class="nav_link">Contact</a>
         </div>
       </nav>
     </header>
     <!-- Header Navbar End -->
+    <div id="home" class="page-header header-filter" data-parallax="true" style="height: 600px;">
+      <div class="container" style="width: 100vw; padding: 0; margin: 0px; max-width: 100vw;">
+          <div class="row" style="height: 100vh;margin: 0px">
+              <div class="col-md-4 col-half-offset" id="hometop-container" style="margin: auto;">
+                  <img class="img-fluid" src="../assets/logo.png" style="width:30% ;padding: 1rem 5px;" />
+                  <h2 class="tag-title" style="font-weight:600;">Google Developer Student Clubs</h1>
+                    <h3 class="tag_title" style="font-weight:600;">kanpur Institute of Technology
 
-    <!-- Home Banner Start -->
-    <div class="landing-wrapper">
-      <div class="landing-left">
-        <img src="../assets/img/landing_img.svg" />
+                      </h3>
+                      <br><br>
+
+                        <div class="text-center">
+                          <a class="button"
+                            href="https://dsc.community.dev/kanpur-institute-of-technology/"
+                            target="_blank">Join Us!</a>
+</div>
+</div>
+
+
+              <div class="col-md-8"
+                  style=" background-image: url('../banner.png'); background-position: bottom; background-size: 100% auto;background-repeat: no-repeat; margin-right: 0px;margin-left: auto;">
+                  </div>
+          </div>
       </div>
-      <div class="landing-right floating">
-        <img
-          src="https://cdn-images-1.medium.com/max/578/1*vZVM7utCuRiZ6-HDsNeYUA@2x.png"
-          alt="Logo"
-          height="40px"
-          class="d-inline-block align-text-center image"
-        />
-        <h1>Welcome to GDSC KIT!</h1>
-        <p>
-          Developer Student Clubs is a
-          <first-letter>G</first-letter><third-letter>o</third-letter
-          ><second-letter>o</second-letter><first-letter>g</first-letter
-          ><forth-letter>l</forth-letter><third-letter>e</third-letter> Developers program for
-          university students to learn<second-letter> mobile </second-letter> and
-          <first-letter>web development skills</first-letter>,
-          <third-letter>design thinking skills</third-letter> and
-          <forth-letter>leadership skills.</forth-letter>
-        </p>
+  </div>
 
 
-
-        <a
-          class="member-button"
-          href="https://gdsc.community.dev/kanpur-institute-of-technology-kanpur/"
-          target="_blank"
-          rel="noopener"
-          >Become Member</a>
-          <br>
-
-          <a
-            class="member-button"
-            href="https://developers.google.com/community/gdsc/leads"
-            target="_blank"
-            rel="noopener"
-            >Become Lead</a>
-
-      </div>
-    </div>
-    <!-- Home Banner End -->
     <!-- Header Navbar Start -->
     <header>
       <nav>
@@ -139,50 +140,51 @@
         </button>
 
         <div class="navbar_menus">
-          <a href="./home.html" class="nav_link">Home</a>
-          <a href="#" class="nav_link">About</a>
-          <a href="#" class="nav_link">Events</a>
-          <a href="#" class="nav_link">Projects</a>
-          <a href="#" class="nav_link">FAQs</a>
-          <!-- <a href="./blogs.html" class="nav_link">Blogs</a> -->
-          <a href="#" class="nav_link">Team</a>
-          <a href="#" class="nav_link">Contact</a>
+          <a href="#home" class="nav_link">Home</a>
+          <a href="#about" class="nav_link">About</a>
+          <a href="#events" class="nav_link">Events</a>
+
+          <a href="#projects" class="nav_link">Projects</a>
+          <a href="#doubts" class="nav_link">FAQs</a>
+          <a href="#opportunities" class="nav_link">Oportunities</a>
+          <a href="#team" class="nav_link">Team</a>
+          <a href="#testimonial" class="nav_link">Testimonials</a>
+          <a href="#contact" class="nav_link">Contact</a>
         </div>
       </nav>
     </header>
     <!-- Header Navbar End -->
-
+<br><br><br><br><br><br><br><br><br><br>
     <!-- About Us Start -->
-    <div class="container">
+    <div id="about"class="container">
       <h2>About Us</h2>
       <div class="box">
         <div class="content">
           <i class="fas fa-rocket ghost-blue"></i>
-          <p class="title">Concept of DSC</p>
+          <p class="title">Concept of GDSC</p>
           <p class="text">
-            The DSC program is a grassroots channel through which Google provides development,
-            mobile & web development skills for students, towards employability.
+            The GDSC program serves as a grassroots platform through which Google offers students essential development, mobile, and web development skills, with the overarching goal of enhancing their employability prospects.
           </p>
         </div>
         <div class="content">
           <i class="fas fa-lightbulb ghost-green"></i>
-          <p class="title">Why DSC?</p>
+          <p class="title">Why GDSC?</p>
           <p class="text">
-            For students to learn development skills, solve problems through technology and inspire
-            them to be world class developers and changemakers.
+        To nurture students development skills, empower them to solve problems using technology, and inspire them to become exceptional developers and change-makers on a global scale.
           </p>
         </div>
         <div class="content">
           <i class="fas fa-users ghost-red"></i>
           <p class="title">Target audience</p>
           <p class="text">
-            DSC activities are targeted at University students and any others including faculty
+            GDSC activities are targeted at University students and any others including faculty
             members who want to learn development skills & work to solve real-life problems.
           </p>
         </div>
       </div>
     </div>
     <!-- About Us End -->
+
     <!-- Site Title -->
     <title>Events | GDSC KIT</title>
     <!-- Favicon-->
@@ -222,6 +224,7 @@
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/events.css" />
+    <link rel="stylesheet" href="../css/blog.css" />
 
     <!-- External JS -->
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -243,82 +246,73 @@
         </button>
 
           <div class="navbar_menus">
-            <a href="./home.html" class="nav_link">Home</a>
-            <a href="#" class="nav_link">About</a>
-            <a href="#" class="nav_link">Events</a>
-            <a href="#" class="nav_link">Projects</a>
-            <a href="#" class="nav_link">Doubts</a>
-            <!-- <a href="./blogs.html" class="nav_link">Blogs</a> -->
-            <a href="#" class="nav_link">Team</a>
-            <a href="#" class="nav_link">Contact</a>
+            <a href="#home" class="nav_link">Home</a>
+            <a href="#about" class="nav_link">About</a>
+            <a href="#events" class="nav_link">Events</a>
+            <a href="#projects" class="nav_link">Projects</a>
+            <a href="#doubts" class="nav_link">doubts</a>
+            <a href="#opportunities" class="nav_link active">Oportunities</a>
+            <a href="#team" class="nav_link">Team</a>
+            <a href="#testimonials" class="nav_link">Testimonials</a>
+            <a href="#contact" class="nav_link">Contact</a>
           </div>
         </nav>
       </header>
       <!-- Header Navbar End -->
 
+
     <!-- Events Start -->
     <section id="events">
-      <div class="container">
-        <h2 class="section-title">Events</h2>
-        <p class="section-subtitle">Come learn, share and connect with us in person.</p>
-        <div class="all-items">
-          <h2 class="section-heading">Upcoming Events</h2>
-          <div class="underline"></div>
-          <div class="item">
-            <div class="left">
-              <div class="img">
-                <img src="../assets/img/events/sample.png" alt="" />
-              </div>
+    <div class="container">
+      <h2 class="section-title">Events</h2>
+      <p class="section-subtitle">Come learn, share, and connect with us in person.</p>
+      <div class="event-toggle">
+        <a href="#" id="upcoming-events-link" class="active-link">Upcoming Events</a>
+        <a href="#" id="past-events-link">Past Events</a>
+      </div>
+      <div class="all-items">
+        <!-- Upcoming Events Section -->
+        <div id="upcoming-events" class="event-section">
+          <div class="event-item">
+            <div class="event-image">
+              <img src="C:\Users\jayendra\Desktop\Websites\GDSCKIT\hactooo.jpeg" alt="HacktoVerse 2023" />
             </div>
-            <div class="right">
-              <h2 class="event-heading">Info Session for GDSC KIT 2023-24
-              </h2>
-              <h3 class="event-subheading">Date: SEP 28, 2023<br /> Time: 1:00 PM (IST)<br />Venue: Auditorium,
-              Kanpur Institute of Technology - Kanpur
-                </h3>
+            <div class="event-details">
+              <h2 class="event-heading">HacktoVerse 2023</h2>
+              <h3 class="event-subheading">Date: OCT 10, 2023<br />Time: 1:00 PM (IST)<br />Venue: Online, Google Meet</h3>
               <p class="event-description">
-                An info session for spreading awareness about the club activities, and its upcoming events. The event
-                would aim at educating the students of KIT campus about the importance of the club, the benefits of
-                joining it and its functionality in helping them grow their interest in technology.
+                Don't miss this opportunity to be a part of the exciting world of HacktoVerse,<br> where coding meets collaboration, innovation meets inspiration, and knowledge knows no bounds.
               </p>
-              <a class="button"
-                href=""
-                target="_blank">RSVP Now</a>
+              <a class="button" href="https://gdsc.community.dev/events/details/developer-student-clubs-michael-okpara-university-of-agriculture-umudike-presents-hacktoverse-2023/cohost-kanpur-institute-of-technology-kanpur" target="_blank">RSVP Now</a>
             </div>
           </div>
+          <!-- Add more upcoming event items as needed -->
         </div>
-        <h2 class="section-heading">Past Events</h2>
-        <div class="underline"></div>
-        <div class="item">
-          <div class="left">
-            <div  class="img">
-              <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,h_540,q_auto:good,w_720/v1/gcs/platform-data-dsc/chapter_photos/main%2520flyer%2520%25282%2529.jpg" alt="" />
+
+        <!-- Past Events Section -->
+        <div id="past-events" class="event-section">
+          <div class="event-item">
+            <div class="event-image">
+              <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,h_540,q_auto:good,w_720/v1/gcs/platform-data-dsc/chapter_photos/main%2520flyer%2520%25282%2529.jpg" alt="OpenSource Fusion" />
+            </div>
+            <div class="event-details">
+              <h2 class="event-heading">OpenSource Fusion| Kanpur Institute of Technology - Kanpur</h2>
+              <h3 class="event-subheading">Date: Aug 22, 2023<br />Time: 9:30 PM (IST)<br />Venue: Virtual</h3>
+              <p class="event-description">
+                Open-source contribution in the field of software has been doing wonders for all the developers and the community as a whole as it gives back power right to the hand of the developers and anyone else, who might not be backed by a tedious organization.
+              </p>
+              <a class="button" href="https://gdsc.community.dev/events/details/developer-student-clubs-kanpur-institute-of-technology-kanpur-presents-opensource-fusion/cohost-kanpur-institute-of-technology-kanpur" target="_blank">View Insights</a>
             </div>
           </div>
-          <div class="right">
-            <h2 class="event-heading">OpenSource Fusion|
-              Kanpur Institute of Technology - Kanpur</h2>
-            <h3 class="event-subheading">Date: Aug 22, 2023<br /> Time: 9:30 PM  (IST)<br />Venue: Virtual</h3>
-            <p class="event-description">
-              Open-source contribution in the field of software has been doing wonders for all the developers and the
-              community as a whole as it gives back power right to the hand of the developers and anyone else, who might
-              not be backed by a tedious organization.
-            </p>
-            <a class="button"
-              href="https://gdsc.community.dev/events/details/developer-student-clubs-kanpur-institute-of-technology-kanpur-presents-opensource-fusion/cohost-kanpur-institute-of-technology-kanpur"
-              target="_blank">View Insights</a>
-          </div>
+          <!-- Add more past event items as needed -->
         </div>
-        <!-- </div> -->
+        <br><br><br>
+      </div>
+      <a href="https://gdsc.community.dev/kanpur-institute-of-technology-kanpur/" target="_blank"><button class="view-more">View More</button></a>
+    </div>
+  </section>
 
 
-        </div>
-        <!-- </div> -->
-        <a href="https://gdsc.community.dev/kanpur-institute-of-technology-kanpur/" target="_blank"><button
-            class="view-more">View More</button></a>
-      </div>
-      </div>
-    </section>
     <!-- Events End -->
     <!-- Site Title -->
     <title>Projects | GDSC KIT</title>
@@ -368,6 +362,7 @@
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/projects.css" />
+    <link rel="stylesheet" href="../css/blog.css" />
 
     <!-- Main JS -->
     <script defer src="../js/script.js"></script>
@@ -388,15 +383,16 @@
         </button>
 
         <div class="navbar_menus">
-          <a href="./home.html" class="nav_link">Home</a>
-          <a href="#" class="nav_link">About</a>
-          <a href="#" class="nav_link">Events</a>
+          <a href="#home" class="nav_link">Home</a>
+          <a href="#about" class="nav_link">About</a>
+          <a href="#events" class="nav_link">Events</a>
 
-          <a href="#" class="nav_link">Projects</a>
-          <a href="#" class="nav_link">FAQs</a>
-          <!-- <a href="./blogs.html" class="nav_link">Blogs</a> -->
-          <a href="#" class="nav_link">Team</a>
-          <a href="#" class="nav_link">Contact</a>
+          <a href="#projects" class="nav_link">Projects</a>
+          <a href="#doubts" class="nav_link">FAQs</a>
+          <a href="#opportunities" class="nav_link">Oportunities</a>
+          <a href="#team" class="nav_link">Team</a>
+          <a href="#testimonial" class="nav_link">Testimonials</a>
+          <a href="#contact" class="nav_link">Contact</a>
         </div>
       </nav>
     </header>
@@ -418,7 +414,7 @@
     </section>
     <!-- Projects End -->
     <!-- Site Title -->
-    <title>Doubts | GDSC KIT</title>
+    <title>doubts | GDSC KIT</title>
     <!-- Favicon-->
     <link rel="shortcut icon" type="image/svg" href="../assets/logo.svg" />
 
@@ -464,7 +460,7 @@
     <link rel="stylesheet" href="../css/settings.css" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/footer.css" />
-    <link rel="stylesheet" href="../css/Doubts.css" />
+    <link rel="stylesheet" href="../css/doubts.css" />
 
     <!-- Main JS -->
     <script defer src="../js/script.js"></script>
@@ -485,25 +481,26 @@
         </button>
 
         <div class="navbar_menus">
-          <a href="./home.html" class="nav_link">Home</a>
-          <a href="#" class="nav_link">About</a>
-          <a href="#" class="nav_link">Events</a>
+          <a href="#home" class="nav_link">Home</a>
+          <a href="#about" class="nav_link">About</a>
+          <a href="#events" class="nav_link">Events</a>
 
-          <a href="#" class="nav_link">Projects</a>
-          <a href="#" class="nav_link">FAQs</a>
-          <!-- <a href="./blogs.html" class="nav_link">Blogs</a> -->
-          <a href="#" class="nav_link">Team</a>
-          <a href="#" class="nav_link">Contact</a>
+          <a href="#projects" class="nav_link">Projects</a>
+          <a href="#doubts" class="nav_link">FAQs</a>
+          <a href="#opportunities" class="nav_link">Oportunities</a>
+          <a href="#team" class="nav_link">Team</a>
+          <a href="#testimonial" class="nav_link">Testimonials</a>
+          <a href="#contact" class="nav_link">Contact</a>
         </div>
       </nav>
     </header>
     <!-- Header Navbar End -->
 
     <!-- Projects Start -->
-    <section id="Doubts">
-       <div class="Doubts_header">
+    <section id="doubts">
+       <div class="doubts_header">
         <h1>Doubt Solving</h1>
-        <h3>Having problems with your Doubts?</h3>
+        <h3>Having problems with your doubts?</h3>
         <div>
           Welcome to the Doubt Solving feature organized by Google Developer Student Club (GDSC)
           KIT! We understand that learning can sometimes come with questions, and we're here to
@@ -515,9 +512,9 @@
           <span>Ask Now</span>
           <i class="bx bx-chevron-right"></i>
         </a>
-        <!-- <p>Here are some Solved Doubts!</p> -->
+        <!-- <p>Here are some Solved doubts!</p> -->
       </div>
-      <div class="Doubts_header">
+      <div class="doubts_header">
 
 
 
@@ -594,33 +591,34 @@
         </button>
 
         <div class="navbar_menus">
-          <a href="./home.html" class="nav_link">Home</a>
-          <a href="#" class="nav_link">About</a>
-          <a href="#" class="nav_link">Events</a>
+          <a href="#home" class="nav_link">Home</a>
+          <a href="#about" class="nav_link">About</a>
+          <a href="#events" class="nav_link">Events</a>
 
-          <a href="#" class="nav_link">Projects</a>
-          <a href="#" class="nav_link">Doubts</a>
-          <!-- <a href="./blogs.html" class="nav_link">Blogs</a> -->
-          <a href="#" class="nav_link">Team</a>
-          <a href="#" class="nav_link">Contact</a>
+          <a href="#projects" class="nav_link">Projects</a>
+          <a href="#doubts" class="nav_link">FAQs</a>
+          <a href="#opportunities" class="nav_link">Oportunities</a>
+          <a href="#team" class="nav_link">Team</a>
+          <a href="#testimonial" class="nav_link">Testimonials</a>
+          <a href="#contact" class="nav_link">Contact</a>
         </div>
       </nav>
     </header>
     <!-- Header Navbar End -->
+
 
     <!-- Team Section Start -->
     <section id="team">
       <div class="container-fluid team">
         <h1>Meet Our Faculty Advisor</h1>
         <div id="faculty-advisor" class="member"></div>
+        <br>
 
         <h1>Meet Our Team Of 2023</h1>
 
         <!-- Team Lead Start -->
-        <div id="lead" class="member"></div>
+        <div id="lead" class="member" ></div>
         <!-- Team Lead End -->
-
-       
 
         <!-- Team Core Start -->
         <div id="core" class="member"></div>
@@ -694,19 +692,22 @@
         </button>
 
         <div class="navbar_menus">
-          <a href="./home.html" class="nav_link">Home</a>
-          <a href="#" class="nav_link">About</a>
-          <a href="#" class="nav_link">Events</a>
-          <a href="#" class="nav_link">Projects</a>
-          <a href="#" class="nav_link">FAQs</a>
+          <a href="#home" class="nav_link">Home</a>
+          <a href="#about" class="nav_link">About</a>
+          <a href="#events" class="nav_link">Events</a>
 
-          <!-- <a href="./blogs.html" class="nav_link">Blogs</a> -->
-          <a href="#" class="nav_link">Team</a>
-          <a href="#" class="nav_link">Contact</a>
+          <a href="#projects" class="nav_link">Projects</a>
+          <a href="#doubts" class="nav_link">FAQs</a>
+          <a href="#opportunities" class="nav_link">Oportunities</a>
+          <a href="#team" class="nav_link">Team</a>
+          <a href="#testimonial" class="nav_link">Testimonials</a>
+          <a href="#contact" class="nav_link">Contact</a>
         </div>
       </nav>
     </header>
     <!-- Header Navbar End -->
+
+
 
     <!-- Contact Start -->
     <section id="contact">
@@ -771,25 +772,6 @@
       </div>
     </section>
     <!-- Contact End -->
-
-    <section id="feedback_form">
-      <h1>Feedback</h1>
-      <h2>Submit Your Concerns and Ideas!</h2>
-      <p>
-        We value every member's experience at the GDSC and strive to create an inclusive and
-        engaging community. Your opinions matter, and we're here to listen. If you're facing any
-        challenges, have suggestions for improvement, or want to share your ideas, please don't
-        hesitate to let us know. Your feedback helps us enhance the club's activities and events,
-        making them more beneficial and enjoyable for everyone. Click the button below to submit
-        your grievances, problems, or any thoughts you'd like to share. Together, we can make the
-        GDSC experience even better!
-      </p>
-      <a href="https://forms.gle/hheBzGzaXAV2tWqc8" target="_blank" rel="noopener">
-        <span>Submit Feedback</span>
-        <i class="bx bx-chevron-right"></i>
-      </a>
-    </section>
-
 
     <!-- Footer Start -->
     <footer>
@@ -873,6 +855,7 @@
           <a href="#">Projects</a>
           <a href="#">FAQs</a>
           <a href="#">Team</a>
+          <a href="#">Testimonials</a>
           <a href="#">Contact</a>
         </span>
       </div>
