@@ -57,16 +57,17 @@ These features are designed to empower GDSC organizers and members in their miss
 Here are some stunning screenshots of GDSC-KIT in action:
 
 
-   ![Dashboard](screenshot/dashboard.png)
+![Alt Text](https://raw.githubusercontent.com/Ankit-0310/GDSC-KIT/main/screenshot/dashboard.png
+)
 
 
-   ![Templates Library](screenshot/templates.png)
+
+   <img src="screenshot/templates.png" >
+
+   <img src="screenshot/workshops.png" >
 
 
-   ![Workshop Resources](screenshot/workshops.png)
-
-
-   ![Event Organization Guide](screenshot/guide.png)
+   <img src="screenshot/guide.png" >
    
 
  ## Before You Start
