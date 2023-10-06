@@ -1,8 +1,6 @@
 <h1 align="center">GDSC-KIT</h1>
 
-<p align="center">
-  <img src="gdsc img.png" alt="GDSC Logo">
-</p>
+
 
 <p align="center">
   <em> Google Developer Student Clubs!</em>
@@ -23,9 +21,6 @@
 
 Welcome to **GDSC-KIT** - The Ultimate Resource Hub for Google Developer Student Clubs Worldwide! 🌍✨
 
-<p align="center">
-  <img src="https://giphy.com/gifs/programming-2irU5fj7Y7aLSU1xnU" alt="Coding GIF">
-</p>
 
 ## :rocket: About
 
