@@ -59,16 +59,16 @@ GDSC-KIT is not just another repository; it's a digital playground for GDSC enth
 Here are some stunning screenshots of GDSC-KIT in action:
 
 
-   ![Dashboard](screenshots/dashboard.png)
+   ![Dashboard](screenshot/dashboard.png)
 
 
-   ![Templates Library](screenshots/templates.png)
+   ![Templates Library](screenshot/templates.png)
 
 
-   ![Workshop Resources](screenshots/workshops.png)
+   ![Workshop Resources](screenshot/workshops.png)
 
 
-   ![Event Organization Guide](screenshots/guide.png)
+   ![Event Organization Guide](screenshot/guide.png)
    
 
  ## Before You Start
