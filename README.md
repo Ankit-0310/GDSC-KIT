@@ -33,15 +33,18 @@ GDSC-KIT is not just another repository; it's a digital playground for GDSC enth
 
 ## :star2: Features
 
-- **Templates Galore**: A treasure trove of beautifully crafted templates for event posters, flyers, and social media graphics, ensuring your club's events stand out.
+- **Open Source**: GDSC-KIT is open-source, allowing you to contribute your resources, enhancements, and ideas back to the GDSC community, fostering growth and innovation.
 
-- **Resource Bonanza**: An abundant collection of workshop materials, presentation decks, and coding challenges to elevate your club's activities.
 
-- **Guidance Central**: Step-by-step guides on event organization, club management, and community building - your secret sauce for success!
+-**User-Friendly Interface**: GDSC-KIT boasts an intuitive and user-friendly interface, making it easy for organizers and members to navigate and find valuable resources.
+
+- **Comprehensive Guide**: Step-by-step guides on event organization, club management, and community building - your secret sauce for success!
 
 - **Global Network**: Connect with GDSCs worldwide, exchange success stories, and learn from each other.
 
 - **Inspiration Station**: Get inspired by real-world GDSC success stories and case studies, and take your club to the next level.
+
+These features are designed to empower GDSC organizers and members in their mission to build thriving tech communities on their campuses.
 
 ## :wrench: Tech Stack
 
