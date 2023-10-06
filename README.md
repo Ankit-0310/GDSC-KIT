@@ -1,7 +1,7 @@
 <h1 align="center">GDSC-KIT</h1>
 
 <p align="center">
-  <img src="https://your-logo-url-here.png" alt="GDSC Logo">
+  <img src="gdsc img.png" alt="GDSC Logo">
 </p>
 
 <p align="center">
@@ -53,6 +53,7 @@ GDSC-KIT is not just another repository; it's a digital playground for GDSC enth
 - **Version Control**: 
   - Git and GitHub
 
+
 ## :camera: Screenshots
 
 Here are some stunning screenshots of GDSC-KIT in action:
@@ -68,6 +69,95 @@ Here are some stunning screenshots of GDSC-KIT in action:
 
 
    ![Event Organization Guide](screenshots/guide.png)
+   
+
+ ## Before You Start
+
+- Always maintain the **file format & folder structure.**
+- Maintain proper file names (i.e, for images).
+- Don't use capital or spaces for files names instead use `_` or `-`.
+
+---
+
+
+<!-- GETTING STARTED -->
+
+## :sparkles: Getting Started
+
+We're thrilled to have you contribute to GDSC-KIT! Share your own templates, resources, or enhancements to make this website even more amazing:
+
+Below are the steps to follow to contribute to this project:
+
+**1.** Fork [this](https://github.com/Ankit-0310/GDSC-KIT) repository.
+
+**2.** Clone your forked copy of the project.
+
+```
+git clone https://github.com/<your_user_name>/Ankit-0310/GDSC-KIT.git
+```
+
+where `your_user_name` is your GitHub username.
+
+**3.** Navigate to the project directory :file_folder: .
+
+```
+cd Ankit-0310/GDSC-KIT
+```
+
+**4.** Add a reference(remote) to the original repository.
+
+```
+git remote add upstream https://github.com/Ankit-0310/GDSC-KIT.git
+```
+
+**5.** Check the remotes for this repository.
+
+```
+git remote -v
+```
+
+**6.** Always take a pull from the upstream repository to your main branch to keep it at par with the main project(updated repository).
+
+```
+git pull upstream main
+```
+
+**7.** Create a new branch.
+
+```
+git checkout -b <your_branch_name>
+```
+
+**8.** Make necessary changes and commit those changes
+
+**9.** Track your changes.
+
+```
+git add .
+```
+
+**10.** Commit your changes .
+
+```
+git commit -m "Commit message"
+```
+
+**11.** Push the committed changes in your feature branch to your remote repo.
+
+```
+git push -u origin <your_branch_name>
+```
+
+**12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
+
+**13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
+
+**14.** Click on `Create Pull Request`.
+
+**15.** And you are done creating a pull request to this project. Be patient while we review your code and merge the changes.
+
+Check out our detailed [Contribution Guidelines](CONTRIBUTING.md) for the full scoop.
+
 
 ## :rocket: Getting Started
 
@@ -87,16 +177,13 @@ GDSC-KIT is designed with simplicity in mind. Here's how you can put it to use:
 - **Challenge** your members with coding puzzles to boost their skills.
 - **Navigate** the guides for masterful event organization.
 
-## :sparkles: Contributing
 
-We're thrilled to have you contribute to GDSC-KIT! Share your own templates, resources, or enhancements to make this toolkit even more amazing:
 
-1. **Fork** this repository.
-2. **Create** a branch for your magical changes.
-3. **Enhance** and create wonders.
-4. **Submit** a pull request to spread the awesomeness.
+## :telephone_receiver: Contact Us
 
-Check out our detailed [Contribution Guidelines](CONTRIBUTING.md) for the full scoop.
+Got questions, suggestions, or just want to chat? Feel free to reach out to us:
+
+- **Email**: [ankitarya753@gmail.com](mailto:ankitarya753@gmail.com)
 
 ## :page_with_curl: License
 
@@ -105,3 +192,4 @@ GDSC-KIT operates under the [MIT License](LICENSE.md). Feel the freedom to use, 
 ---
 
 We're excited to have GDSC-KIT become your GDSC's secret weapon. For any queries or brilliant ideas, don't hesitate to [open an issue](https://github.com/Ankit-0310/GDSC-KIT/issues). Let's code, inspire, and build an extraordinary tech community together! 🚀🔥
+
