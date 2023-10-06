@@ -36,7 +36,7 @@ GDSC-KIT is not just another repository; it's a digital playground for GDSC enth
 - **Open Source**: GDSC-KIT is open-source, allowing you to contribute your resources, enhancements, and ideas back to the GDSC community, fostering growth and innovation.
 
 
--**User-Friendly Interface**: GDSC-KIT boasts an intuitive and user-friendly interface, making it easy for organizers and members to navigate and find valuable resources.
+- **User-Friendly Interface**: GDSC-KIT boasts an intuitive and user-friendly interface, making it easy for organizers and members to navigate and find valuable resources.
 
 - **Comprehensive Guide**: Step-by-step guides on event organization, club management, and community building - your secret sauce for success!
 
